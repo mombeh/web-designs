@@ -218,3 +218,9 @@ span {
   margin: 0.7em;
   box-shadow: 0 4px 4px #bab9b9;
 }
+
+.pics {
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+} 
