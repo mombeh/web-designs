@@ -118,7 +118,6 @@ span {
 .material-icons {
   background-color: #1886e7;
   color: #fff;
-  font-size: 4px;
   border: 3px;
 }
 
@@ -143,8 +142,17 @@ span {
 }
 
 .container {
-  display: grid;
+  display: block;
   background-color: #fff;
+}
+
+.image-container {
+  width: 400px;
+  display: block;
+}
+
+.img-class {
+  width: 98%;
 }
 
 .live {
