@@ -422,7 +422,7 @@ span {
     display: grid;
     grid-template-columns: 50% 50%;
   }
-  
+
   .side {
     display: grid;
     grid-template-columns: 50% 50%;
