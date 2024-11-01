@@ -256,3 +256,85 @@ span {
   width: 80px;
   border-radius: 50%;
 }
+
+@media screen and (min-width: 768px)  {
+.genes {
+  padding-top: 3rem;
+  margin-top: 3rem;
+  text-align: justify;
+  line-height: normal;
+  font-size: 35px;
+}
+
+.opinion {
+  font-size: 40px;
+  color: #ffffff;
+}
+
+nav, ul {
+  display: flex;
+ 
+  align-items: end;
+  justify-content: space-between;
+  flex-direction: ;
+}
+
+.tw {
+
+  text-align: justify;
+  line-height: normal;
+  display: grid;
+  font-size: 2;
+}
+
+.cute {
+ 
+  height: 20vh;
+  width: 50vw;
+}
+
+.icons {
+  font-size: larger;
+}
+
+.ctn {
+  padding-top: 3rem;
+  margin-top: 3rem;
+  text-align: justify;
+  line-height: normal;
+  font-size: 35px;
+  text-align: center;
+}
+.project {
+  font-size: 25px;
+}
+
+.align-tm {
+  display: flex;
+  margin-top: 3rem;
+  text-align: justify;
+  line-height: normal;
+  font-size: 35px;
+}
+
+.apeal {
+  font-size: 35px;
+}
+
+.pride {
+  font-size: 25px;
+}
+
+.articl, .align {
+  display: block;
+  flex-direction: column;
+  font-size: 35px;
+  border: 1rem solid;
+}
+
+.active {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+}
+ }
