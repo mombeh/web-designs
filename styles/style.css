@@ -405,7 +405,7 @@ span {
   }
 
   .btn {
-    padding-top: 3rem;
+    padding: 7px;
     margin-top: 3rem;
     line-height: normal;
     font-size: 35px;
@@ -434,12 +434,14 @@ span {
 
   .break {
     display: grid;
-    grid-template-columns: 50% 50%;
+    grid-template-columns: 50%;
   }
 
-  .pay {
+  /* .pay {
     display: grid;
-    grid-template-columns: 50% 50%;
+    grid-template-columns: 60% 40%;
+    justify-content: end;
+    border: 0.5rem solid yellow; */
   }
 
   .row {
@@ -449,5 +451,20 @@ span {
 
   .live {
     text-align: justify;
+  }
+
+  .pge {
+    display: grid;
+    grid-template-columns: 40% 30% 30%;
+    justify-content: space-between;
+  }
+
+  .items {
+    display: grid;
+    grid-template-columns: 50% 50%;
+  }
+
+  .live button {
+    padding: 15px;
   }
 }
