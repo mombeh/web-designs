@@ -437,13 +437,6 @@ span {
     grid-template-columns: 50%;
   }
 
-  /* .pay {
-    display: grid;
-    grid-template-columns: 60% 40%;
-    justify-content: end;
-    border: 0.5rem solid yellow; */
-  }
-
   .row {
     display: grid;
     grid-template-columns: 50%;
@@ -467,3 +460,4 @@ span {
   .live button {
     padding: 15px;
   }
+}
