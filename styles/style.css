@@ -316,7 +316,7 @@ span {
     text-align: justify;
     line-height: normal;
     font-size: 30px;
-     justify-content: space-between;
+    justify-content: space-between;
   }
 
   .apeal {
@@ -448,7 +448,7 @@ span {
 
   .pge {
     display: grid;
-    grid-template-columns: 80% 30% ;
+    grid-template-columns: 80% 30%;
     justify-content: space-between;
     width: 100%;
   }
