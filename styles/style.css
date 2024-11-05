@@ -260,9 +260,9 @@ span {
   .genes {
     padding-top: 3rem;
     margin-top: 3rem;
-    text-align: justify;
+    text-align: center;
     line-height: normal;
-    font-size: 34px;
+    font-size: 15px;
   }
 
   .opinion {
@@ -301,9 +301,9 @@ span {
   .ctn {
     padding-top: 3rem;
     margin-top: 3rem;
-    text-align: justify;
+    text-align: center;
     line-height: normal;
-    font-size: 35px;
+    font-size: 24px;
   }
 
   .project {
@@ -312,11 +312,11 @@ span {
 
   .align-tm {
     display: flex;
-    margin-top: 3rem;
+    padding: 3rem;
     text-align: justify;
     line-height: normal;
-    font-size: 35px;
-    gap: 15px;
+    font-size: 30px;
+     justify-content: space-between;
   }
 
   .apeal {
@@ -448,8 +448,14 @@ span {
 
   .pge {
     display: grid;
-    grid-template-columns: 40% 30% 30%;
+    grid-template-columns: 80% 30% ;
     justify-content: space-between;
+    width: 100%;
+  }
+
+  .win {
+    display: flex;
+    gap: 5rem;
   }
 
   .items {
